@@ -1,0 +1,22 @@
+{
+  "name": "vangog",
+  "version": "1.0.0",
+  "description": "backand for a login system",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.2",
+    "nodemailer": "^6.9.4",
+    "nodemon": "^3.0.1"
+  }
+}
